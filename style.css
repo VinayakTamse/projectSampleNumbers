@@ -4,7 +4,7 @@
     box-shadow: 5px 3px;
     border-radius: 5%;
     height: 100px;
-    margin: 0px 950px 0px 850px;
+   /* margin: 0px 950px 0px 850px;*/
     background-image: radial-gradient(orange, red, yellow);
     animation-name: anim;
     animation-duration: 3s;
@@ -25,8 +25,8 @@
 #items b {
     text-align: center;
     line-height: 100px;
-    margin-left: 6px;
-    padding: 10px;
+    margin-left: 16px;
+    padding: 45px;
 }
 
 #genBtn {
@@ -41,15 +41,6 @@
     background-color:blueviolet;
 }
 
-.amg {
-    width: 900px;
-    margin: auto;
-}
-
-.table1{
-    width: 100%;
-    margin-top: 20px;
-}
 
 .table1, td{
     border: 2px solid black;
