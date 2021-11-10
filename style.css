@@ -1,0 +1,65 @@
+#items  {
+    
+    border: 2px solid orangered;
+    box-shadow: 5px 3px;
+    border-radius: 5%;
+    height: 100px;
+    margin: 0px 950px 0px 850px;
+    background-image: radial-gradient(orange, red, yellow);
+    animation-name: anim;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    
+
+}
+@keyframes anim {
+
+    0% {backgroud-image:radial-gradient(green,yellow, orangered);}
+  25%  {background-image:radial-gradient(orange,yellow, red);}
+  50%  {background-image:radial-gradient(red,yellow,orangered);}
+  100% {background-image:radial-gradient(yellow, red, orange);}
+    
+}
+
+#items b {
+    text-align: center;
+    line-height: 100px;
+    margin-left: 6px;
+    padding: 10px;
+}
+
+#genBtn {
+    background-color:violet;
+    border: 2px solid violet;
+    color: white;
+    padding: 7px;
+    width: 350px;
+}
+
+#genBtn:hover {
+    background-color:blueviolet;
+}
+
+.amg {
+    width: 900px;
+    margin: auto;
+}
+
+.table1{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.table1, td{
+    border: 2px solid black;
+    
+}
+
+.table1 td {
+    text-align: center;
+    font-size: 28px;
+    font-family: Times New Roman;
+    font-style: italic;
+    font-weight: bold;
+}
